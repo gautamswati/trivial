@@ -16,5 +16,6 @@
                <button class="hover:bg-teal-700 border-8 text-center h-40 w-64 rounded-full text-black text-6xl bg-teal-900">Begin</button>
            </div>
        </div>
+        <script src="{{ asset('js/app.js')}}"></script>
     </body>
 </html>
