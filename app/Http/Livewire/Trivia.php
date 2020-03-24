@@ -27,7 +27,6 @@ class Trivia extends Component
     }
 
     public function mount() {
-
         $client = new Client();
         $crawler = $client->request('GET', 'https://www.thefactsite.com/100-space-facts/');
         

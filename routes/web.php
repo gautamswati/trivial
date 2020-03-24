@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 Route::livewire('/trivia', 'trivia')
     ->layout('layouts.base');
+
