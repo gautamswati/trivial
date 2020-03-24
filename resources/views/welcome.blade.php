@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         <title>Trivial</title>
-
+        @livewireStyles
     </head>
     <body>
        <div class="rounded min-h-screen">
@@ -17,5 +17,6 @@
            </div>
        </div>
         <script src="{{ asset('js/app.js')}}"></script>
+        @livewireScripts
     </body>
 </html>

@@ -17,4 +17,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/trivia', 'TriviaController@index');
+Route::livewire('/trivia', 'trivia')
+    ->layout('layouts.base');
