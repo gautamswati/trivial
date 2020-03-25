@@ -9,7 +9,7 @@
     <body>
        <div class="rounded min-h-screen">
            <div class="bg-teal-400 min-h-screen-3/4 text-center flex justify-center rounded">
-                <h1 class="m-auto text-white font-bold text-8xl">Hola mi Amigo!</h5>
+                <h1 class="m-auto text-white font-bold text-8xl">Welcome To Trivial!</h5>
            </div>
            <div class="flex justify-center -mt-24">
                 <a href='/trivia' class="hover:bg-teal-700 border-8 text-center h-40 w-64 rounded-full text-black text-6xl bg-teal-900"
